@@ -8,7 +8,7 @@ public_folder: /img
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'assets/content/blog'
     create: true
     format: 'json'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
