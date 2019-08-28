@@ -1,30 +1,11 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        netlify-cms-nuxt-guide
-      </h1>
-      <h2 class="subtitle">
-        My terrific Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <logo />
+    <h1 class="title">Nuxt.js & Netlify CMS Starter</h1>
+    <h2 class="subtitle">Truly fantastic. Sometimes I astound even myself.</h2>
+    <a href="https://github.com/xdesro/nuxt-netlify-cms-starter">GitHub</a>
+    <a href="http://i.ncredibly.online">Twitter</a>
+    <nuxt-link to="/blog">Blog</nuxt-link>
   </div>
 </template>
 
@@ -39,7 +20,7 @@ export default {
     return {
       script: [
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
-      ],
+      ]
     }
   }
 }
@@ -71,9 +52,5 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
 }
 </style>

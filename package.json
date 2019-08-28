@@ -1,8 +1,8 @@
 {
-  "name": "netlify-cms-nuxt-guide",
+  "name": "nuxt-netlify-cms-starter",
   "version": "1.0.0",
-  "description": "My terrific Nuxt.js project",
-  "author": "Henry Desroches",
+  "description": "A very Spartan boilerplate for using Netlify CMS/static content files with Nuxt.js.",
+  "author": "Henry Desroches <yo@henry.codes> (https://henry.codes)",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -10,6 +10,11 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdesro/nuxt-netlify-cms-starter#readme"
+  },
+  "license": "MIT",
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.6",
     "nuxt": "^2.0.0"
