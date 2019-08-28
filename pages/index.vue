@@ -6,6 +6,13 @@
     <a href="https://github.com/xdesro/nuxt-netlify-cms-starter">GitHub</a>
     <a href="http://i.ncredibly.online">Twitter</a>
     <nuxt-link to="/blog">Blog</nuxt-link>
+    <div class="deploy-button">
+      <a
+        href="https://app.netlify.com/start/deploy?repository=https://github.com/xdesro/nuxt-netlify-cms-starter"
+      >
+        <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
+      </a>
+    </div>
   </div>
 </template>
 
@@ -37,20 +44,27 @@ export default {
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: bold;
+  font-size: 3.2rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 2rem;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+a {
+  font-weight: bold;
+  color: #526488;
+}
+.deploy-button {
+  margin-top: 1rem;
 }
 </style>
