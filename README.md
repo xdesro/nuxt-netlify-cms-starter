@@ -59,10 +59,15 @@ This project comes with Netlify CMS ready to rumble, and a basic blog configurat
 4. If you don't want to create an account, or would like to use an external provider such as GitHub or Google, you can enable those services under **External providers**.
 5. Scroll down to **Services** and click **Enable Git Gateway**.
 
+### 🔏 Media configuration
+The default configuration expects you to run on Netlify's Large Media, which uses Git LFS. To configure this yourself read up on it here:
+* [documentation](https://docs.netlify.com/large-media/overview/)
+or directly set it up by following [these](https://docs.netlify.com/large-media/setup/#configure-file-tracking) steps
+
 ### 🔐 Local Setup
 
 1. In your browser, navigate to `localhost:3000/admin`.
-2. Enter the Netlify URL of your site when prompted.
+2. Enter the Netlify URL of your site when prompted. (when using a different domainname host, use be sure to use the URL as provided by Netlify, not your domain host)
 3. Login with the account you created or one of the external providers, if you enabled them.
 
 ## 💁‍♀️ Questions? Concerns?
